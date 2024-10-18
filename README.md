@@ -75,14 +75,19 @@ The main functions are the following:
 1- analyse_imseg_organofem.py
 Code developed to extract morphological cellular information like cellular surface area from segmented images. 
 
+![step1](https://github.com/user-attachments/assets/de2eecd8-f92f-4ec1-b06d-5b346457afa5)
+
 2- create_AVM_organofem.py
 Active Vertex Model for the simulation of a virtual organoid given the number of cells and the thickness of the oraganoid shell.
 This part have an optional quasi static solver resolution of the oraganoid morphology with parameters of elasticity depending of a target tensions and volumes to achieve.
 An other property of this code is the translation of the vertex model in a finite elment model formulation with the creation an .inp file for Abaqus.
 
+![step2](https://github.com/user-attachments/assets/c7333a04-9eee-4801-a99c-bb09f4765b17)
+
 3- analyse_FEM_organofem.py
 This part of the code is an exemple of how to read Abaqus output files (.fil) to extract properties like strain and stress and the more important how to acces to the position/displacement of the node.
 By this way, we can measure morphological properties at the cellular level after deformation.
 
+![step3](https://github.com/user-attachments/assets/1fe37d81-f8fa-4199-9c28-ed17cfeb21dd)
 
 
