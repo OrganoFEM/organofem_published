@@ -1,4 +1,8 @@
 
+# ORGANOFEM, FEM applied to organoids biomechanical modelling  
+
+<img src="https://user-images.githubusercontent.com/56252845/160375009-8c8537f5-6f84-4a2e-a21d-f0994fafde4b.png" width="300" height="300" />
+
 # organofem_published
 
 This repository contain the codes used in the following publication:
@@ -67,10 +71,6 @@ J. Laussu1*, D. Michel2, L. Magne1,2, S. Segonds1, S. Marguet1, D. Hamel2, M. Qu
     VERSION # Git version
     LICENCE # GNU licence v3
  
-
-# ORGANOFEM, FEM applied to organoids biomechanical modelling  
-
-<img src="https://user-images.githubusercontent.com/56252845/160375009-8c8537f5-6f84-4a2e-a21d-f0994fafde4b.png" width="300" height="300" />
 
 The main functions are the following:
 
