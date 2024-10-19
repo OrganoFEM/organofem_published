@@ -88,7 +88,7 @@ An other property of this code is the translation of the vertex model in a finit
 ![step2](https://github.com/user-attachments/assets/c7333a04-9eee-4801-a99c-bb09f4765b17)
 
 ##  3- analyse_FEM_organofem.py
-This part of the code is an exemple of how to read Abaqus output files (.fil) to extract properties like strain and stress and the more important how to acces to the position/displacement of the node.
+This part of the code is an example of how to read Abaqus output files (.fil) to extract properties like strain and stress and the more important how to acces to the position/displacement of the node.
 By this way, we can measure morphological properties at the cellular level after deformation.
 
 ![step3](https://github.com/user-attachments/assets/1fe37d81-f8fa-4199-9c28-ed17cfeb21dd)
@@ -98,9 +98,26 @@ intall anaconda
 create conda environment:  
 ```console
 conda create -n organofem python=3.9
-conda activate organofem
-conda install -c conda-forge tyssue  
-cd organofem\dist\model  
-python "python code from exemple 1, 2 or 3"  
 ```
+activate the environment:  
+```console
+conda activate organofem
+```
+install tyssue library using conda-forge depository:  
+```console
+conda install -c conda-forge tyssue
+```
+install additionnal libraries:  
+```console
+pip intall vedo,hickle
+```
+enter in the folder containing the examples:  
+```console  
+cd organofem\dist\model
+```
+run an example:  
+```console  
+python "python code from example 1, 2 or 3"
+```  
+
 
