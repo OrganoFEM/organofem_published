@@ -109,7 +109,7 @@ conda install -c conda-forge tyssue
 ```
 install libtiff library using conda-forge depository:  
 ```console
-conda install -c conda-forge libtiff
+conda install -c conda-forge pylibtiff
 ```
 install additionnal libraries:  
 ```console
