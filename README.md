@@ -132,4 +132,9 @@ please downoald Visual C++ Builts tools from Microsoft an run:
 vs_buildtools.exe --norestart --passive --downloadThenInstall --includeRecommended --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.VCTools --add Microsoft.VisualStudio.Workload.MSBuildTools
 pip install pylibtiff
 ```  
-
+________________________________________
+For windows, if you encounter difficulties with vispy install  
+please downoald pyqt an run:  
+```console  
+conda install -c conda-forge pyqt
+```  
