@@ -124,6 +124,12 @@ cd organofem\dist\model
 run an example:  
 ```console  
 python "python code from example 1, 2 or 3"
+```
+________________________________________
+For windows, if you encounter difficulties with libtiff install  
+please downoald Visual C++ Builts tools from Microsoft an run:  
+```console  
+vs_buildtools.exe --norestart --passive --downloadThenInstall --includeRecommended --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.VCTools --add Microsoft.VisualStudio.Workload.MSBuildTools
+pip install pylibtiff
 ```  
-
 
