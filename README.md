@@ -36,7 +36,9 @@ J. Laussu1*, D. Michel2, L. Magne1,2, S. Segonds1, S. Marguet1, D. Hamel2, M. Qu
     │   ├── integration  
     │   |   └──  # integration tests
     │   ├── temp  
-    │   |   └──  # for temporary resulst    
+    │   |   └──  # for temporary resulst
+    │   ├── article_rawdata  
+    │   |   └──  # rawdatas from the article  
     │   └── unit
     │       └──  # unit tests 
     ├── dist 
