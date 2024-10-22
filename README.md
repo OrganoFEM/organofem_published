@@ -47,13 +47,14 @@ J. Laussu1*, D. Michel2, L. Magne1,2, S. Segonds1, S. Marguet1, D. Hamel2, M. Qu
     │   ├── utils
     |   |   └──  # common operations and functions 
     |   ├── model
-    │   |   ├── seg_organoid.tif # segmentation image to test the code step 1 
+    │   │   ├── metadata.txt # link to the figshare depository : https://figshare.com/articles/dataset/organofem_dataset_to_test/27275985
+    │   |   |   ├── node_inp_organofem.inp # input file for Abaqus that can be use in step 3 to describe organoid elemental structure
+    │   |   |   ├── node_fil_organofem.fil # output Abaqus file with historic of nodes field information / for step 3  
+    │   |   |   ├── elem_fil_organofem.fil # output Abaqus file with historic of elements field information / for step 3 
+    │   │   |   └── seg_organoid.tif # segmentation image to test the code step 1
     │   |   ├── analyze_imseg_organofem.py # STEP1 python code to extract morphological data from segmented image
     │   |   ├── create_AVM_organofem.py # STEP2 python code to create a virtual organoid in an activ vertex model
-    │   |   ├── node_inp_organofem.inp # input file for Abaqus that can be use in step 3 to describe organoid elemental structure
-    │   |   ├── node_fil_organofem.fil # output Abaqus file with historic of nodes field information / for step 3  
-    │   |   ├── elem_fil_organofem.fil # output Abaqus file with historic of elements field information / for step 3   
-    |   |   └── analyze_FEM_organofem.py # STEP1 python code to extract morphological data from FEM model resolution
+    |   |   └── analyze_FEM_organofem.py # STEP3 python code to extract morphological data from FEM model resolution
     |   ├── bio
     │   |   ├── mesh.py # mesh class
     │   |   ├── organoid.py # element class  
