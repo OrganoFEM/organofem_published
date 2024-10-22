@@ -47,7 +47,7 @@ J. Laussu1*, D. Michel2, L. Magne1,2, S. Segonds1, S. Marguet1, D. Hamel2, M. Qu
     │   ├── utils
     |   |   └──  # common operations and functions 
     |   ├── model
-    │   │   ├── metadata.txt # link to the figshare depository : https://figshare.com/articles/dataset/organofem_dataset_to_test/27275985
+    │   │   ├── dataset.txt # link to the figshare depository : https://figshare.com/articles/dataset/organofem_dataset_to_test/27275985
     │   |   |   ├── node_inp_organofem.inp # input file for Abaqus that can be use in step 3 to describe organoid elemental structure
     │   |   |   ├── node_fil_organofem.fil # output Abaqus file with historic of nodes field information / for step 3  
     │   |   |   ├── elem_fil_organofem.fil # output Abaqus file with historic of elements field information / for step 3 
